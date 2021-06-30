@@ -69,11 +69,14 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   html {
-    text-align: center;
+    /* text-align: center; */
     font-size: 100%;
     width: 100%;
 
     scroll-behavior: smooth;
+  }
+  .body {
+    width: 100%;
   }
 
   .my-name {
@@ -92,9 +95,6 @@
   .top-container {
     padding-bottom: -50px;
   }
-  .land {
-    margin-top: 60px;
-  }
 
   .skill-align-div {
     padding-bottom: 15%;
@@ -111,8 +111,11 @@
   }
   .land {
     margin-top: 12%;
-    margin-left: -550px;
-    width: 350%;
+
+    /* margin-top: 60px; */
+
+    margin-left: -1080px;
+    /* width: 200%; */
     height: auto;
   }
   .para-mobile {
