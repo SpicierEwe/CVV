@@ -61,27 +61,39 @@
     margin: 50% 0;
   }
   .center-align-div {
-    /* margin: 50% 0; */
+     margin: 50% 0; */
 }
 
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
+/* ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px */
 
 @media (min-width: 320px) and (max-width: 480px) {
   html {
-    font-size: 80%;
+    text-align: center;
+    font-size: 100%;
+    width: 100%;
+
+    scroll-behavior: smooth;
   }
+
   .my-name {
     left: 55%;
   }
   .job {
-    top: 270px;
-    left: 186px;
+    top: 277px;
+    left: 58%;
   }
   .photo-container {
-    margin-left: 30%;
+    margin-left: 36%;
+  }
+  .skill-photo-container {
+    margin-left: 32.5%;
+  }
+  .top-container {
+    padding-bottom: -50px;
+  }
+  .land {
+    margin-top: 60px;
   }
 
   .skill-align-div {
@@ -92,6 +104,10 @@
   }
   .capable {
     margin-top: -50px;
+  }
+  .skill-align-div {
+    padding-bottom: -50px;
+    margin-bottom: -150px;
   }
 }
 @keyframes cloud-1 {
