@@ -1,0 +1,151 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* html {
+    font-size: 70%;
+  }
+  .job {
+    top: 230px;
+  }
+  .top-container {
+    padding-bottom: 20%;
+  }
+
+  .land {
+    margin-top: -40px;
+  }
+  .tweak {
+    padding-top: -200px;
+    padding-bottom: -50px;
+  }
+  .skill-align-div {
+    margin: 50% 0;
+  }
+  .center-align-div {
+    /* margin: 50% 0; */
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    font-size: 80%;
+  }
+  .my-name {
+    left: 55%;
+  }
+  .job {
+    top: 270px;
+    left: 186px;
+  }
+  .photo-container {
+    margin-left: 30%;
+  }
+
+  .skill-align-div {
+    padding-bottom: 15%;
+  }
+  .footer-links:not(:first-child) {
+    margin-left: 50px;
+  }
+  .capable {
+    margin-top: -50px;
+  }
+}
+@keyframes cloud-1 {
+  0% {
+    transform: translateX(-360px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+@keyframes cloud-2 {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(250px);
+  }
+}
+@keyframes cloud-3 {
+  0% {
+    transform: translateX(-600px);
+  }
+  100% {
+    transform: translateX(350px);
+  }
+}
+.cloud-1 {
+  position: absolute;
+  left: 65%;
+  top: 10%;
+  animation-name: cloud-1;
+  animation-duration: 20s;
+  /* animation-play-state: running; */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 25%;
+  animation-name: cloud-2;
+  animation-duration: 22s;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+.cloud-3 {
+  position: absolute;
+  left: 5%;
+  top: 59%;
+  height: 60px;
+  animation-name: cloud-3;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
