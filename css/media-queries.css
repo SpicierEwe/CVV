@@ -149,7 +149,7 @@
 }
 @keyframes cloud-3 {
   0% {
-    transform: translateX(-600px);
+    transform: translateX(-550px);
   }
   100% {
     transform: translateX(420px);
