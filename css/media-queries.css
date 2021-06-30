@@ -160,7 +160,7 @@
   left: 65%;
   top: 10%;
   animation-name: cloud-1;
-  animation-duration: 20s;
+  animation-duration: 22s;
   /* animation-play-state: running; */
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -170,7 +170,7 @@
   position: absolute;
   left: 25%;
   animation-name: cloud-2;
-  animation-duration: 22s;
+  animation-duration: 27s;
   animation-timing-function: linear;
   animation-fill-mode: backwards;
   animation-iteration-count: infinite;
