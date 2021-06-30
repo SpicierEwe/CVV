@@ -114,7 +114,8 @@
 
     /* margin-top: 60px; */
 
-    margin-left: -1080px;
+    margin-left: -700px;
+    width: 400%;
     /* width: 200%; */
     height: auto;
   }
@@ -132,7 +133,7 @@
 }
 @keyframes cloud-1 {
   0% {
-    transform: translateX(-360px);
+    transform: translateX(-400px);
   }
   100% {
     transform: translateX(100px);
@@ -140,7 +141,7 @@
 }
 @keyframes cloud-2 {
   0% {
-    transform: translateX(-400px);
+    transform: translateX(-450px);
   }
   100% {
     transform: translateX(250px);
@@ -148,7 +149,7 @@
 }
 @keyframes cloud-3 {
   0% {
-    transform: translateX(-600px);
+    transform: translateX(-650px);
   }
   100% {
     transform: translateX(350px);
