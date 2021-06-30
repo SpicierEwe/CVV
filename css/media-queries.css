@@ -136,7 +136,7 @@
     transform: translateX(-400px);
   }
   100% {
-    transform: translateX(100px);
+    transform: translateX(180px);
   }
 }
 @keyframes cloud-2 {
@@ -144,15 +144,15 @@
     transform: translateX(-450px);
   }
   100% {
-    transform: translateX(250px);
+    transform: translateX(350px);
   }
 }
 @keyframes cloud-3 {
   0% {
-    transform: translateX(-650px);
+    transform: translateX(-600px);
   }
   100% {
-    transform: translateX(350px);
+    transform: translateX(420px);
   }
 }
 .cloud-1 {
