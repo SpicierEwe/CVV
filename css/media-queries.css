@@ -126,10 +126,17 @@
     margin-left: 10%;
   }
   .para-mobile-skill {
-    width: 70%;
-    padding: 0 20px;
-    margin-left: 13%;
+    width: 55%;
+    /* padding: 0 20px; */
+    /* margin-left: 13%; */
+    /* ***tweaking***** */
+    margin-left: 12%;
+    padding: 0 60px;
   }
+}
+.special-mobile {
+  width: 65%;
+  margin-left: 18%;
 }
 @keyframes cloud-1 {
   0% {
