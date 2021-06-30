@@ -109,6 +109,22 @@
     padding-bottom: -50px;
     margin-bottom: -150px;
   }
+  .land {
+    margin-left: -550px;
+    width: 350%;
+    height: auto;
+  }
+  .para-mobile {
+    width: 75%;
+    padding: 0 10px;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .para-mobile-skill {
+    width: 70%;
+    padding: 0 5px;
+    margin-left: 13%;
+  }
 }
 @keyframes cloud-1 {
   0% {
